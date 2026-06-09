@@ -19,7 +19,7 @@ import PackageDescription
 
 let package = Package(
   name: "InteropForGoogle",
-  platforms: [.iOS(.v11), .macCatalyst(.v13), .macOS(.v10_13), .tvOS(.v12), .watchOS(.v7)],
+  platforms: [.iOS(.v11), .macCatalyst(.v13), .macOS(.v10_13), .tvOS(.v12), .watchOS(.v9)],
   products: [
     .library(
       name: "RecaptchaInterop",
